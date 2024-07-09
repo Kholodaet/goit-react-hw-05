@@ -5,6 +5,7 @@ import { getCreditsMovies } from '../../services/apiMovies';
 import css from './MovieCast.module.css';
 import Loader from '../Loader/Loader';
 import ErrorMessage from '../ErrorMessage/ErrorMessage';
+import defaultPicture from '../../img/picture.jpg';
 
 export default function MovieCast() {
   const { movieId } = useParams();
@@ -38,7 +39,11 @@ export default function MovieCast() {
           {movieCast.map(actor => (
             <li key={actor.id}>
               <img
-                src={`https://image.tmdb.org/t/p/w200${actor.profile_path}`}
+                src={
+                  actor.profile_path
+                    ? `https://image.tmdb.org/t/p/w200${actor.profile_path}`
+                    : defaultPicture
+                }
                 alt={actor.name}
                 title={actor.name}
               />

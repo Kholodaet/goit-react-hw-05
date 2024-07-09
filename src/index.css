@@ -77,50 +77,11 @@ button {
 button:hover {
   background-color: #dbdadb;
 }
-/* 
-.card {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  background-color: #ffffff;
-  color: #000000;
-  padding: 32px;
-  border-radius: 16px;
-  margin: 32px 0;
-}
-
-.sub-card {
-  padding: 16px;
-  border: 1px solid grey;
-  border-radius: 8px;
-} */
 
 .container {
   max-width: 375px;
   padding: 16px;
   margin: 0 auto;
-}
-
-.errorMessage {
-  color: red;
-  margin: 16px 0;
-}
-
-.default-link {
-  text-decoration: underline;
-  color: plum;
-}
-
-.highVote {
-  background-color: green;
-}
-
-.medVote {
-  background-color: rgb(122, 212, 49);
-}
-
-.lowVote {
-  background-color: orange;
 }
 
 @media screen and (min-width: 768px) {
@@ -245,7 +206,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+
 article,
 aside,
 details,
