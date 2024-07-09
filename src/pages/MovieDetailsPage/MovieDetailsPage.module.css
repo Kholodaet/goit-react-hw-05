@@ -1,0 +1,65 @@
+.containerPage {
+  padding: 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.back {
+  display: inline-block;
+  margin-bottom: 16px;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.back:hover {
+  text-decoration: underline;
+}
+
+.wrapper {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+
+.wrapper img {
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.genres,
+.overview,
+.rating {
+  font-size: 18px;
+  margin-bottom: 16px;
+  font-weight: 600px;
+}
+
+.overviewText {
+  margin-bottom: 32px;
+  line-height: normal;
+}
+
+.listInfo {
+  list-style: none;
+  padding-bottom: 15px;
+  display: flex;
+  gap: 16px;
+}
+
+.link {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #0056b3;
+}
